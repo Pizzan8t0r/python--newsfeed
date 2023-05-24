@@ -13,3 +13,7 @@ def create_app(test_config=None):
     return 'hello world'
 
   return app
+## Express.js version for creating a sample route that was done above
+# app.get('/hello', (req, res) => {
+ #res.send('hello world');
+#});
